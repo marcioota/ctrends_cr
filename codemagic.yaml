@@ -6,8 +6,3 @@ workflows:
       android:
         compileSdk: 33
         buildTools: "33.0.2"
-    scripts:
-      - flutter pub get
-      - flutter build apk --release
-    artifacts:
-      - build/app/outputs/flutter-apk/app-release.apk
