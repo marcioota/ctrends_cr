@@ -1,0 +1,13 @@
+workflows:
+  android-release:
+    name: Build Android Release
+    environment:
+      flutter: 3.13.1
+      android:
+        compileSdk: 33
+        buildTools: "33.0.2"
+    scripts:
+      - flutter pub get
+      - flutter build apk --release
+    artifacts:
+      - build/app/outputs/flutter-apk/app-release.apk
