@@ -1,12 +1,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ret_01">
+    package="com.example.ret_03">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <application
         android:label="Central de Retenção"
-        android:name="${applicationName}"
+        android:name="com.example.ret_03"
         android:icon="@mipmap/orange"
         android:usesCleartextTraffic="true"
         >
