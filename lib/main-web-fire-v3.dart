@@ -43,7 +43,7 @@ class WebViewControllerProvider with ChangeNotifier {
 final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
     FlutterLocalNotificationsPlugin();
 
-const bool isLocalDev = false;
+const bool isLocalDev = true;
 final String devUrl = 'http://192.168.0.33:9000';
 final String prodUrl = 'https://ctrends.esystem.com.br';
 
